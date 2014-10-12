@@ -5,7 +5,7 @@ $(call inherit-product, vendor/slim/config/common_full_phone.mk)
 TARGET_SCREEN_WIDTH := 720
 TARGET_SCREEN_HEIGHT := 1280
 
-$(call inherit-product, device/motorola/falcon/full_peregrine.mk)
+$(call inherit-product, device/motorola/peregrine/full_peregrine.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := MOTO G 4G
